@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Policy",
+  "description": "A policy resource represents a group of settings that govern the behavior of a managed device and the apps installed on it.\n\n# Activities\n\nThis type is used in activities, which are methods you may call on this type or where this type is involved in. The list links the activity name, along with information about where it is used (one of *request* and *response*).\n\n* [policies get enterprises](EnterprisePolicyGetCall) (response) * [policies patch enterprises](EnterprisePolicyPatchCall) (request|response)",
+  "type": "object",
+  "properties": {
+    "bluetoothConfigDisabled": {
+      "description": "Whether configuring bluetooth is disabled.",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "bluetoothDisabled": {
+      "description": "Whether bluetooth is disabled. Prefer this setting over bluetooth_config_disabled because bluetooth_config_disabled can be bypassed by the user.",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "locationMode": {
+      "description": "The degree of location detection enabled.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "shareLocationDisabled": {
+      "description": "Whether location sharing is disabled. share_location_disabled is supported for both fully managed devices and personally owned work profiles.",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  }
+}
