@@ -1,3 +1,5 @@
+[![Build](https://github.com/SubconsciousCompute/google-mdm-schema-maker/actions/workflows/rust.yml/badge.svg)](https://github.com/SubconsciousCompute/google-mdm-schema-maker/actions/workflows/rust.yml)
+
 # Google MDM schema maker
 
 ```shell
